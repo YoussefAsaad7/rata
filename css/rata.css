@@ -1,0 +1,303 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 100;
+    color: ivory;
+    background-color: #4cbefa;
+}
+header{
+    width: 74%;
+    height: 71px;
+    background-color: #30a6f8;
+    margin: 20px auto 0 auto;
+    border-top: 1px solid #72ccfb;
+    border-bottom: 1px solid #4cb1e4;
+    border-left: 1px solid #4cb1e4;
+    border-right: 1px solid #4cb1e4;
+    border-radius: 10px;
+    
+
+    
+}
+span#logo , div#clist-1 ,div#clist-2{
+    display: inline-block;
+    height: 60px;
+}
+span#logo{
+    width: 190px;
+    height: 19px;
+    background-image: url('../images/rata-logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: none;
+    border-radius: 5px;
+    color: #4cb1e4 ;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+nav{
+    width: 930px;
+    height: 60px;
+    display: inline-block;
+    padding-top: 10px;
+    margin: 0px auto 0px auto;
+    padding-left: 0;
+
+}
+ul{
+    list-style: none;
+    height: 60px;
+    margin:0;
+    display:inline-block;
+    padding-left: 0;
+}
+ul + ul{
+    margin-left: 40px;
+    border-left: 1px solid #52b8f9;
+}
+li{
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 10px;
+
+}
+li.l:hover{
+    background-color: #3ab6fa;
+    border-radius: 10px;
+    padding: 4px; 
+}
+li#item-1{
+    background-color: #3ab6fa;
+    border-radius: 10px;
+    padding: 4px;
+}
+a#signup{
+    background-color: #3ab6fa;
+    border-radius: 10px;
+    padding: 4px;
+}
+ul a{
+    text-decoration: none;
+    color: #fff;
+    height: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+    letter-spacing: 0px;
+}
+.form{
+    font-size: 16px;
+
+}
+span.form{
+    color: #52b8f9 ;
+}
+/* nav end */
+div#info{
+    width: 50%;
+    margin: 20px auto 0 auto;
+}
+div#error-container ,div#speed-container{
+    margin-left: 100px;
+    display: inline-block;
+    color: #CCEEFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 15px;
+}
+b{
+    font-size: 24px;
+}
+/* section 1 ended*/
+
+div#key-field{
+    width: 1214px;
+    height: 55px;
+    margin: 10px auto 0 auto;
+    background-color: #fff;
+    color: #4F4F4F;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+/*end of section 2 */
+div#keyboard{
+    width: 774px;
+    height: 290px;
+    padding: 9px;
+    margin: 50px auto 0 auto;
+    background-color: #4cbefa;
+    border-bottom: 1px solid #49a9db;
+    border-top: 1px solid #79cffb;
+    border-left: 1px solid #44a8dd;
+    border-right: 1px solid #44a8dd;
+    border-radius: 10px;
+    line-height: 35px;
+}
+div.row{
+    width: 756px;
+    height: 54px;
+    padding: 0px 0px 4px;
+    margin-right: 0;
+    margin-left: 6px;
+    overflow: hidden;
+    clear: both;
+    padding-bottom: 4px;
+    text-transform: uppercase;
+}
+i.keyboard-button{
+    width:50px;
+    height: 50px;
+}
+
+span.key-container{
+    width: 100%;
+    font-size: 16px;
+    line-height: 1;
+    text-align: center;
+    cursor: default;
+    color: #999;
+    display: inline-block;
+    height: auto!important;
+    vertical-align: bottom;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+span.right-s{
+    text-indent: 25px;
+}
+span.left-s{
+    text-indent: -25px;
+}
+.key{
+    height: 20px;
+    color: #999999;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+i.keyboard-button + i.keyboard-button{
+    margin: 0px 0px 0px -1px;
+}
+div.row div{
+    display: inline-block;
+}
+.c0{
+    width: 46px;
+    height: 46px;
+    background-color: #9AD3FA;
+    border-radius: 5px;
+    text-align: center;
+    border-top: 1px solid #b6dffc;
+    border-bottom: 1px solid #44a8dd;
+
+}
+.c1{
+    width: 46px;
+    height: 46px;
+    background-color: #78E2AA;
+    border-radius: 5px;  
+    text-align: center;
+    border-top: 1px solid #a0eac4;
+    border-bottom: 1px solid #44a8dc;
+}
+.c2{
+    width: 46px;
+    height: 46px;
+    background-color: #63E3FF;
+    border-radius: 5px;  
+    text-align: center;
+    border-top: 1px solid #91eaff;
+    border-bottom: 1px solid #43a8dd ;
+}
+.c3{
+    width: 46px;
+    height: 46px;
+    background-color: #F69EC4;
+    border-radius: 5px;  
+    text-align: center;
+    border-top: 1px solid #f7bbd6;
+    border-bottom: 1px solid #45a7dc;
+}
+.c4{
+    width: 46px;
+    height: 46px;
+    background-color: #FFC07E;
+    border-radius: 5px;  
+    text-align: center;
+    border-top: 1px solid #fdd3a6;
+    border-bottom: 1px solid #45a8db;
+}
+.c5{
+    width: 46px;
+    height: 46px;
+    background-color: #FFEF7E;
+    border-radius: 5px;  
+    text-align: center;
+    border-top: 1px solid #fdf3a6;
+    border-bottom: 1px solid #45a8db;
+}
+
+i.keyboard-key-bks{
+    width: 76px;
+    height: 50px;
+    
+}
+
+div.bks{
+    width: 72px;
+    height: 46px;
+    background-color: #9AD3FA;
+    border-radius: 5px;
+    
+}
+i.keyboard-key-lock{
+    width: 91px;
+    height: 50px;
+}
+div.caps{
+    width: 87px;
+    height: 46;
+}
+i.keyboard-key-enter{
+    width: 84px;
+    height: 50px;
+    text-align: right;
+}
+div.enter{
+    width: 80px;
+    height: 46px;
+}
+i.keyboard-key-shift{
+    width: 118px;
+    height: 50px;
+}
+div.shift{
+    width: 114px;
+    height: 46px;
+    text-align: left;
+}
+i.keboard-key-right-shift{
+    width: 112px;
+    height: 50px;
+}
+div.right-shift{
+    width: 108px;
+    height: 46px;
+}
+i.keyboard-key-space{
+    width: 413px;
+    height: 52px;
+    margin: 0px 0px 0px 169px;
+}
+div.space{
+    width: 409px;
+    height: 46px;
+    margin: 1px 0px;
+}
+.bor{
+    border: 2px solid #fff;
+}
